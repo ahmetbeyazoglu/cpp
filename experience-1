@@ -1,0 +1,12 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+	int a,b,c,d,e,toplam;
+	float aritmetik;
+	cout<<"Degeleri giriniz;";
+	cin>>a>>b>>c>>d>>e;
+	toplam=a+b+c+d+e;
+	aritmetik=toplam/5;
+	cout<<a<<"-"<<b<<"-"<<c<<"-"<<d<<"-"<<e<<"%f Degerlerinin aritmetik ortalamasi ="<<aritmetik<<endl;
+}
